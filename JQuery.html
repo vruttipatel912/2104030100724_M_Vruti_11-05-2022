@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  $("input").focus(function(){
+    $(this).css("background-color", "#4bbfc9");
+  });
+  $("input").blur(function(){
+    $(this).css("background-color", "white");
+  });
+});
+</script>
+</head>
+
+<body>
+    <h2>jquery Events</h2>
+Enter Your Name: <br> <input type="text" name="fullname"><br>
+Enter Your Age: <br> <input type="text" name="Age">
+</body>
+</html>
